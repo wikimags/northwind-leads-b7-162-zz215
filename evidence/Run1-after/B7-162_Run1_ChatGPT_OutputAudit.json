@@ -1,0 +1,150 @@
+[
+  {
+    "file": "northwind_sales_enquiries_genuine_leads_2026-09-23.xlsx",
+    "sha256": "4aee63356862243f40361fd039fe2530de2d3df4aba70aa0dd1e3b8aeba162f5",
+    "sheet": "in",
+    "rows": 8,
+    "columns": [
+      "name",
+      "email",
+      "company",
+      "interest",
+      "message",
+      "submission_date",
+      "source_reference"
+    ],
+    "names": [
+      "Daniel Reed",
+      "Aisha Patel",
+      "Grace Okafor",
+      "Luis Moreno",
+      "Ethan Brooks",
+      "Priya Shah",
+      "Maya Chen",
+      "Noah Kim"
+    ],
+    "source_field_differences": [],
+    "date_precision": "Seconds; matches source timestamps within one second",
+    "records": [
+      {
+        "name": "Daniel Reed",
+        "email": "daniel.reed@example.com",
+        "company": "Cedar Freight",
+        "interest": "Security review",
+        "message": "We are evaluating a dispatch platform for 45 users. Please send your SSO and data-retention documentation before a technical demo.",
+        "submission_date": "2026-09-23T13:29:14+03:00",
+        "source_reference": "sales-enquiries:L02 | Netlify submission 6ab3a9faa595094b73daf04c"
+      },
+      {
+        "name": "Aisha Patel",
+        "email": "aisha.patel@example.com",
+        "company": "Harbor Cold Chain",
+        "interest": "Pricing",
+        "message": "Please quote 60 dispatch seats for our temperature-controlled fleet. We need a rollout estimate for two depots in November.",
+        "submission_date": "2026-09-23T13:29:15+03:00",
+        "source_reference": "sales-enquiries:L03 | Netlify submission 6ab3a9fb9359d83b90655d47"
+      },
+      {
+        "name": "Grace Okafor",
+        "email": "grace.okafor@example.com",
+        "company": "Pine Retail Supply",
+        "interest": "Pilot",
+        "message": "We would like a two-week pilot for 12 planners. Can we import daily shipment CSV files and measure reduction in follow-up time?",
+        "submission_date": "2026-09-23T13:29:16+03:00",
+        "source_reference": "sales-enquiries:L05 | Netlify submission 6ab3a9fc299b8746dcf73272"
+      },
+      {
+        "name": "Luis Moreno",
+        "email": "luis.moreno@example.com",
+        "company": "Mesa Distribution",
+        "interest": "Demo",
+        "message": "We operate 35 vans. Can your dashboard flag late deliveries and assign follow-up owners? Please arrange a product walkthrough.",
+        "submission_date": "2026-09-23T13:29:16+03:00",
+        "source_reference": "sales-enquiries:L04 | Netlify submission 6ab3a9fcd5bb464ba322f5ec"
+      },
+      {
+        "name": "Ethan Brooks",
+        "email": "ethan.brooks@example.com",
+        "company": "Atlas Field Services",
+        "interest": "Integration",
+        "message": "Our 25 coordinators manage field technician visits. Does your workflow support service exceptions and a Salesforce integration? We are considering a purchase.",
+        "submission_date": "2026-09-23T13:29:17+03:00",
+        "source_reference": "sales-enquiries:L06 | Netlify submission 6ab3a9fd8ed28b49db3053a4"
+      },
+      {
+        "name": "Priya Shah",
+        "email": "priya.shah@example.com",
+        "company": "Willow Medical Supply",
+        "interest": "Pricing",
+        "message": "We are comparing vendors for 18 planning seats. Please send annual pricing, implementation fees and the supplier onboarding requirements.",
+        "submission_date": "2026-09-23T13:29:18+03:00",
+        "source_reference": "sales-enquiries:L07 | Netlify submission 6ab3a9feebdc204b41c6e1ab"
+      },
+      {
+        "name": "Maya Chen",
+        "email": "maya.chen@example.com",
+        "company": "Juniper Logistics",
+        "interest": "Demo",
+        "message": "We coordinate 20 dispatchers in Nairobi. Please show us exception alerts and a pilot plan for October. Our current process is a shared spreadsheet.",
+        "submission_date": "2026-09-23T13:29:19+03:00",
+        "source_reference": "sales-enquiries:L09 | Netlify submission 6ab3a9ff68847547fdb32c54"
+      },
+      {
+        "name": "Noah Kim",
+        "email": "noah.kim@example.com",
+        "company": "Summit Parts",
+        "interest": "Waitlist",
+        "message": "We have six dispatchers and want to join the October pilot waitlist. Please contact me when a small-team place is available.",
+        "submission_date": "2026-09-23T13:29:19+03:00",
+        "source_reference": "sales-enquiries:L08 | Netlify submission 6ab3a9ffa853464832ebef50"
+      }
+    ]
+  },
+  {
+    "file": "northwind_sales_enquiries_review_list_2026-09-23-1.xlsx",
+    "sha256": "42e2891b88a4fc62be961a32e0ae14148e0ed3781b0c9d2c5e9431512448c0d3",
+    "sheet": "in",
+    "rows": 2,
+    "columns": [
+      "name",
+      "email",
+      "company",
+      "interest",
+      "message",
+      "submission_date",
+      "source_reference",
+      "review_reason",
+      "suggested_email"
+    ],
+    "names": [
+      "Olivia Grant",
+      "Alex Morgan"
+    ],
+    "source_field_differences": [],
+    "date_precision": "Seconds; matches source timestamps within one second",
+    "records": [
+      {
+        "name": "Olivia Grant",
+        "email": "olivia.grant.example.com",
+        "company": "Birch Transport",
+        "interest": "Demo",
+        "message": "We need route exception tracking for 15 dispatchers. Please email me about a demo next week.",
+        "submission_date": "2026-09-23T13:29:20+03:00",
+        "source_reference": "sales-enquiries:L10 | Netlify submission 6ab3aa008ed28b49853053b2",
+        "review_reason": "Malformed email address: missing @ symbol.",
+        "suggested_email": "olivia.grant@example.com"
+      },
+      {
+        "name": "Alex Morgan",
+        "email": "alex.morgan@example.com",
+        "company": null,
+        "interest": "Other",
+        "message": "Can you send more information? I am researching options but have not decided what I need yet.",
+        "submission_date": "2026-09-23T13:29:21+03:00",
+        "source_reference": "sales-enquiries:L11 | Netlify submission 6ab3aa01299b87472ef73266",
+        "review_reason": "Unclear sales intent: generic information request, with no company or specific need provided.",
+        "suggested_email": null
+      }
+    ]
+  }
+]

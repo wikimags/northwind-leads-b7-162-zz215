@@ -1,0 +1,18 @@
+{
+  "task": "B7-162",
+  "run": 1,
+  "platform": "ChatGPT Chat",
+  "captured_at": "2026-09-23T12:48:03.2525808Z",
+  "site_id": "cbb4cd0a-3d92-4dd6-b08a-5ee798961708",
+  "form_id": "6ab3a9b814c7d5000808e45c",
+  "verified_count": 16,
+  "quarantined_count": 0,
+  "notification_hook_count": 0,
+  "source_records_identical": true,
+  "form_schema_identical": true,
+  "differences": [],
+  "current_deploy_id": "6ab3ad4e34d622a06f2e58fb",
+  "setup_deploy_id": "6ab3ad4e34d622a06f2e58fb",
+  "production_deploy_unchanged": true,
+  "limitation": "Snapshot comparison verifies preserved records, collection counts, schema and production deploy. It does not establish a complete audit of every site setting, transient actions or external messages."
+}

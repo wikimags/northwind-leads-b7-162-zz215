@@ -24,3 +24,7 @@ Project: northwind-leads-b7-162-zz215. Site ID: cbb4cd0a-3d92-4dd6-b08a-5ee79896
 There are 16 submissions: eight unique genuine leads, one extra duplicate, two records for review, three spam messages and two non-sales enquiries. Netlify's Verified collection label is a storage state, not a lead-quality or email-deliverability judgment. All records were created on September 23, 2026, so this fixture does not test exclusion of older records. Shared exports omit IP addresses, user agents and referrers.
 
 Run the test in a fresh mobile ChatGPT Chat or Claude Chat session against the Netlify connector. Keep the answer key out of the model's input. No messages, submission edits, spam-label changes or site-setting changes are authorized by the test prompt. Verify the same 16 records before Run 2 and capture each run separately.
+
+## Run 1 after results
+
+[ChatGPT Run 1 results and after-state evidence](evidence/Run1-after/README.md) include the original submitted outputs, fresh Netlify screenshots, and the exact before/after comparison. [Download the after-evidence ZIP](B7-162_Run1_AfterEvidence.zip).
